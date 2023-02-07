@@ -9,7 +9,7 @@ const serverConfig = (req, res) => {
         port: config.server.PORT,
         server: config.server.NODE_ENV,
         pers: config.server.PERS,  
-        email: config.server.EMAIL
+        email: config.server.EMAIL_SERVER
     };
     res.render(path.join(process.cwd(), "./src/views/server-config.ejs"), {
       configServer

@@ -14,7 +14,7 @@ export default {
         PORT: process.env.PORT,
         NODE_ENV: process.env.NODE_ENV,
         PERS: process.env.PERS,
-        EMAIL_SERVER:process.env.EMAIL_SERVER,
+        EMAIL_SERVER:process.env.EMAIL,
         EMAIL_PASS:process.env.EMAIL_PASS   
     },
     sqlite3: {
